@@ -14,3 +14,7 @@ We may eventually set up a Makefile to run marked on all the relevant markdown f
 ```bash
 marked -i something.md -o something.html --gfm
 ```
+
+## Live Coding Stuff
+
+Let's see what a merge conflict will look like!
