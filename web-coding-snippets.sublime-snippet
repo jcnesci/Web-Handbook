@@ -1,0 +1,19 @@
+New Object
+
+// See Crockford Better Parts, and QC Inventor Connector.
+var thing = new Thing();
+var Thing = function(){
+	var that = {};
+	var age = 10;
+	that.age = age;
+	return that;
+};
+
+Initialize-at-start global object
+
+var GlobalThing = (function(){
+	var that = {};
+	var age = 10;
+	that.age = age;
+	return that;
+})();
