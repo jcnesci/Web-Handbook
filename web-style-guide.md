@@ -73,9 +73,15 @@ if (turtlesAreAwesome === true) {
 ```
 
 
-## Equal operators
+## Operators
+
+### Equal operators
 
   - Always use the `===` and `!==` operators, not the `==` and `!=` ones, because the latter do type coercion which can produce unexpected results.
+
+### + / - operators
+
+  - Arithmetic operators always get whitespace around them, like ` + `.
 
 
 ## Quotes
